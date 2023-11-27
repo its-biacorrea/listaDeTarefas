@@ -1,9 +1,13 @@
 package listaDeTarefas.base;
 
 import java.util.ArrayList;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 //adicionar, remover e marcar tarefas como concluídas.
 public class Lista {
+	private static final Logger logger = LoggerFactory.getLogger(Lista.class);
     ArrayList<Tarefa> listaTarefa = new ArrayList<>();
 
     //adicionar
@@ -23,19 +27,19 @@ public class Lista {
 
     //remover
     public void removerTarefa(Tarefa tarefa) {
-    	for (Tarefa tarefas : listaTarefa) {
-            if (tarefas.getNome().contentEquals(tarefa.getNome())) {
-            	listaTarefa.remove(tarefas);
-            	break;
-            }
-        }
+    	logger.debug("Nome passado: " + tarefa.getNome());
+    	 boolean removida = listaTarefa.removeIf(t -> t.getNome().equals(tarefa.getNome()));
+    	if (!removida) {
+    		logger.error("Erro ao remover a tarefa: " + tarefa.getNome() + ". Tarefa não encontrada na lista.");
+    	}
     }
     
     public void marcarComoConcluida(Tarefa tarefa) {
+    	logger.debug("Nome passado: " + tarefa.getNome());
     	for (Tarefa tarefas : listaTarefa) {
+    		logger.debug("Nome da vez: " + tarefas.getNome());
             if (tarefas.getNome().contentEquals(tarefa.getNome())) {
-            	 tarefa.setConcluida(true);
-                 System.out.println("Tarefa marcada como concluída: " + tarefa);
+                tarefa.setConcluida(true);
             	break;
             }
         }

@@ -1,0 +1,77 @@
+16:02:14.959 [main] INFO  listaDeTarefas.main.Main - Bem vindo a sua lista de tarefas. Escolha uma das opcoes abaixo: 
+ 1 - Adicionar uma nova tarefa 
+ 2 - Remover uma tarefa 
+ 3 - Marcar uma tarefa como concluida 
+ 4 - Listar as tarefas 
+ 5 - Sair do programa
+16:06:23.443 [main] INFO  listaDeTarefas.main.Main - Bem vindo a sua lista de tarefas. Escolha uma das opcoes abaixo: 
+ 1 - Adicionar uma nova tarefa 
+ 2 - Remover uma tarefa 
+ 3 - Marcar uma tarefa como concluida 
+ 4 - Listar as tarefas 
+ 5 - Sair do programa
+16:06:26.233 [main] INFO  listaDeTarefas.main.Main - Escolha uma das opcoes abaixo: 
+ 1 - Adicionar uma nova tarefa 
+ 2 - Remover uma tarefa 
+ 3 - Marcar uma tarefa como concluida 
+ 4 - Listar as tarefas 
+ 5 - Sair do programa
+16:06:38.217 [main] INFO  listaDeTarefas.main.Main - Entre com o nome da tarefa que será marcada como concluida:
+16:06:46.882 [main] DEBUG listaDeTarefas.base.Lista - Nome passado: Fazer
+16:06:46.882 [main] DEBUG listaDeTarefas.base.Lista - Nome passado: Limpar
+16:06:46.882 [main] DEBUG listaDeTarefas.base.Lista - Nome passado: Fazer
+16:06:46.882 [main] INFO  listaDeTarefas.main.Main - Escolha uma das opcoes abaixo: 
+ 1 - Adicionar uma nova tarefa 
+ 2 - Remover uma tarefa 
+ 3 - Marcar uma tarefa como concluida 
+ 4 - Listar as tarefas 
+ 5 - Sair do programa
+16:21:31.336 [main] INFO  listaDeTarefas.main.Main - Bem vindo a sua lista de tarefas. Escolha uma das opcoes abaixo: 
+ 1 - Adicionar uma nova tarefa 
+ 2 - Remover uma tarefa 
+ 3 - Marcar uma tarefa como concluida 
+ 4 - Listar as tarefas 
+ 5 - Sair do programa
+16:21:33.332 [main] INFO  listaDeTarefas.main.Main - Entre com o nome da tarefa que será marcada como concluida:
+16:21:39.564 [main] DEBUG listaDeTarefas.base.Lista - Nome passado: Fazer
+16:21:39.564 [main] DEBUG listaDeTarefas.base.Lista - Nome da vez: Limpar
+16:21:39.564 [main] DEBUG listaDeTarefas.base.Lista - Nome da vez: Fazer
+16:21:39.564 [main] INFO  listaDeTarefas.main.Main - Escolha uma das opcoes abaixo: 
+ 1 - Adicionar uma nova tarefa 
+ 2 - Remover uma tarefa 
+ 3 - Marcar uma tarefa como concluida 
+ 4 - Listar as tarefas 
+ 5 - Sair do programa
+16:22:18.458 [main] INFO  listaDeTarefas.main.Main - Bem vindo a sua lista de tarefas. Escolha uma das opcoes abaixo: 
+ 1 - Adicionar uma nova tarefa 
+ 2 - Remover uma tarefa 
+ 3 - Marcar uma tarefa como concluida 
+ 4 - Listar as tarefas 
+ 5 - Sair do programa
+16:22:21.233 [main] INFO  listaDeTarefas.main.Main - Entre com o nome da tarefa que será marcada como concluida:
+16:22:26.828 [main] DEBUG listaDeTarefas.base.Lista - Nome passado: Fazer
+16:22:26.829 [main] DEBUG listaDeTarefas.base.Lista - Nome da vez: Limpar
+16:22:26.829 [main] DEBUG listaDeTarefas.base.Lista - Nome da vez: Fazer
+16:22:26.829 [main] INFO  listaDeTarefas.main.Main - Escolha uma das opcoes abaixo: 
+ 1 - Adicionar uma nova tarefa 
+ 2 - Remover uma tarefa 
+ 3 - Marcar uma tarefa como concluida 
+ 4 - Listar as tarefas 
+ 5 - Sair do programa
+16:24:19.857 [main] INFO  listaDeTarefas.main.Main - Bem vindo a sua lista de tarefas. Escolha uma das opcoes abaixo: 
+ 1 - Adicionar uma nova tarefa 
+ 2 - Remover uma tarefa 
+ 3 - Marcar uma tarefa como concluida 
+ 4 - Listar as tarefas 
+ 5 - Sair do programa
+16:24:22.315 [main] INFO  listaDeTarefas.main.Main - Entre com o nome da tarefa que será marcada como concluida:
+16:24:25.840 [main] DEBUG listaDeTarefas.base.Lista - Nome passado: Fazer
+16:24:25.840 [main] DEBUG listaDeTarefas.base.Lista - Nome da vez: Limpar
+16:24:25.840 [main] DEBUG listaDeTarefas.base.Lista - Nome da vez: Fazer
+16:24:25.840 [main] INFO  listaDeTarefas.base.Tarefa - Tarefa marcada como concluída: Tarefa [nome = Fazer, prioridade = , estado da tarefa = true]
+16:24:25.841 [main] INFO  listaDeTarefas.main.Main - Escolha uma das opcoes abaixo: 
+ 1 - Adicionar uma nova tarefa 
+ 2 - Remover uma tarefa 
+ 3 - Marcar uma tarefa como concluida 
+ 4 - Listar as tarefas 
+ 5 - Sair do programa
