@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: listaDeTarefas.main.MainTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in listaDeTarefas.main.MainTest
+listaDeTarefas.main.MainTest.listarTarefas  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <[Nome: Comprar
+Prioridade: Baixa
+Estado da tarefa: false, Nome: Estudar
+Prioridade: Alta
+Estado da tarefa: false]> but was: <[Nome: Estudar, Estado da tarefa: false, Prioridade: Alta, Estado da tarefa: false, Nome: Comprar, Prioridade: Baixa]>
+	at listaDeTarefas.main.MainTest.listarTarefas(MainTest.java:53)
+
