@@ -1,0 +1,24 @@
+<configuration>
+
+    <!-- Configuração do console -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Configuração do arquivo de log -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>log/your-application.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Defina o nível de log para o root logger -->
+    <root level="debug">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+
+</configuration>

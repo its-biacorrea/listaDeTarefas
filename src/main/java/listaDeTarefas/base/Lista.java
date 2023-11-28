@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 
 public class Lista {
 	private static final Logger logger = LoggerFactory.getLogger(Lista.class);
+
     public ArrayList<Tarefa> listaTarefa = new ArrayList<>();
 
     //adicionar
@@ -33,6 +34,7 @@ public class Lista {
     }
     
     public void marcarComoConcluida(Tarefa tarefa) {
+
     	listaTarefa.stream()
         .filter(t -> t.getNome().equals(tarefa.getNome()))
         .findFirst()
@@ -40,6 +42,9 @@ public class Lista {
             t.setConcluida(true);
             logger.info("Tarefa marcada como concluída: " + t);
         });
+
+
+        }
+
     }
 
-}
