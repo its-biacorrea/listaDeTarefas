@@ -1,21 +1,23 @@
 package listaDeTarefas.base;
 import lombok.Data;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-/**
- * @author User
- *
- */
 @Data
 public class Tarefa {
 	  protected String nome;
 	  protected String prioridade;
 	  protected boolean concluida = false;
-
+	  private static final Logger logger = LoggerFactory.getLogger(Tarefa.class);
+	  
 	  public Tarefa(String nome,String prioridade){
-	    this.nome = nome;
-	    this.prioridade = prioridade;
-	    this.concluida = false;
-	  }
+		  if (nome == null || nome.isEmpty()) {
+			  throw new IllegalArgumentException("O nome da tarefa não pode ser nulo ou vazio.");
+			  }
+		  this.nome = nome;
+		  this.prioridade = prioridade;
+		  this.concluida = false;
+		  }
 	  
 	  
 	  
@@ -37,11 +39,14 @@ public class Tarefa {
 
 	    public void setConcluida(boolean concluida) {
 	        this.concluida = concluida;
+	        if (concluida) {
+	            logger.info("Tarefa marcada como concluída: " + this);
+	        }
 	    }
 	  
 	    @Override
 	  public String toString() {
-	      return "Tarefa [nome = " + nome + ", prioridade = " + prioridade + ", estado da tarefa = " + concluida + "]";
+	      return "Nome: " + nome + "\nPrioridade: " + prioridade + "\nEstado da tarefa: " + concluida;
 	    }
 
 	
